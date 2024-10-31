@@ -1,1 +1,3 @@
 *.test-seleksi-magang-crud
+*.gitignore
+*.idea
