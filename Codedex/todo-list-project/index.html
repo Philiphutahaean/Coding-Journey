@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--this section is a container for to do list-->
+    <div id="todo-container"></div>
+    <!--todo list header-->
+    <div id="header">
+      <h1>To Do List</h1>
+    </div>
+    <!--Input Box-->
+    <div id="todo form">
+      <input
+        type="text"
+        class="input-item"
+        id="todo-input"
+        name="input-box"
+        placeholder="tambahkan task baru"
+      />
+    </div>
+
+    <!--Button-->
+    <button id="input-button" onclick="addTask()">Tambahkan</button>
+
+    <!--list of task-->
+    <h2>Daftar Task</h2>
+    <ul id="list-container"></ul>
+    <hr />
+    <!--task list counter-->
+    <div class="counter-container"></div>
+    <div id="task-counters">
+      Completed: <span id="completed-counter">0</span> | Uncompleted:
+    <span id="uncompleted-counter">0</span>
+    </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
